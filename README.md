@@ -1,12 +1,23 @@
 # AlwaysMinigames
 
-A LabAPI plugin for SCP:SL that interacts with the AutoEvent minigame plugin (credits and links below).
+A LabAPI plugin for SCP:SL that interacts with the AutoEvent minigame plugin. 
 
-Essentially, it monitors the current game state. If a minigame is in progress, it waits for it to end, and then automatically starts the voting process using the `.v` command and the auto-event number.
+Essentially, it monitors the current game state: if a minigame is in progress, it waits for it to end and then automatically starts a new voting process using the `.v` command and the auto-event ID.
 
-**Note:** I wrote this plugin specifically for a single project, so it doesn't have a configuration file. If you want to change its behavior or adapt it for your server, you'll need to modify the source code directly.
+> [!IMPORTANT]
+> **No Configuration File:** This plugin was designed for a specific project and does not include a `.yml` or `.json` config. To change its behavior (e.g., voting logic, or timing), you must modify the source code directly or add config variables.
 
-### Credits & Important Links
-* **risottoman** (Original creator of the AutoEvent plugin): [GitHub Profile](https://github.com/RisottoMan)
-* **Original AutoEvent repository**: [RisottoMan/AutoEvent](https://github.com/RisottoMan/AutoEvent)
-* **LabAPI remake (fork)** of AutoEvent by medvemarci: [MedveMarci/AutoEvent](https://github.com/MedveMarci/AutoEvent)
+## How to Use
+This plugin is not provided as a pre-compiled binary. To use it, you need to download the source code and build the plugin yourself.
+
+## Dependencies
+This plugin specifically requires the **LabAPI remake (fork)** of AutoEvent to function correctly:
+* **[AutoEvent LabAPI Fork by MedveMarci](https://github.com/MedveMarci/AutoEvent)**
+
+## Credits & Links
+* **MedveMarci**: [Creator of the LabAPI AutoEvent fork](https://github.com/MedveMarci) (Primary dependency).
+* **risottoman (KoT0XleB)**: [Original creator of the AutoEvent plugin](https://github.com/RisottoMan).
+* **Original Repository**: [RisottoMan/AutoEvent](https://github.com/RisottoMan/AutoEvent).
+
+## License
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
